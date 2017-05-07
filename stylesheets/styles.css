@@ -1,0 +1,60 @@
+html {
+    overflow-x: hidden;
+}
+
+.page .background1 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    background-attachment: fixed;
+}
+
+background1:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: grey;
+    opacity: 0.6;
+}
+
+.background-video {
+    position: absolute;
+    top: 0px;
+    min-width: 20%;
+    min-height: 100%;
+    width: 1920px;
+    height: auto;
+    width: auto;
+    left: 0;
+}
+
+.toper .nav-wrapper {
+    font-family: 'Roboto', sans-serif;
+}
+
+.toper {
+    top: 20px;
+}
+
+    .toper ul li a:hover {
+        color: chocolate;
+    }
+
+    .toper ul li {
+        font-size: medium;
+        color: gold;
+    }
+
+        .toper ul li a:hover {
+            color: red;
+        }
+
+.sb button:hover {
+    color: lawngreen;
+}
