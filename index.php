@@ -10,10 +10,10 @@ if(isset($_POST['submit'])){
   $confirm_password=$_POST['confirm_password'];
   if(isset($_POST['selects'])){
   $selects=$_POST['selects'];
-  /*if($err==0){
-    $location="http://www.facebook.com";//redirect to this if no errors
+  if($err==0){
+    $location="created.php";//redirect to this if no errors
     header("Location: " . $location);
-  }*/
+  }
 }
 }
 ?>
